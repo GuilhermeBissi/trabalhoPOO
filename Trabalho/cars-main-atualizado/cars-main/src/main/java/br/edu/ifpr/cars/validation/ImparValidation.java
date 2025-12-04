@@ -1,14 +1,15 @@
-package br.edu.ifpr.cars.validation;
+package br.edu.ifpr.cars.validation; // ✅ CORRIGIR
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
-public class ImparValidation implements ConstraintValidator<Impar, Integer>{
+public class ImparValidation implements ConstraintValidator<Impar, Integer> {
 
     @Override
     public boolean isValid(Integer value, ConstraintValidatorContext context) {
-        return value % 2 ==1;
+        if (value == null) {
+            return true; // ✅ Adicionar verificação de null
+        }
+        return value % 2 == 1;
     }
-
-
 }
