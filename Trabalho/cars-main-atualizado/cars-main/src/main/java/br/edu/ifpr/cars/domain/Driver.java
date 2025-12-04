@@ -2,7 +2,7 @@ package br.edu.ifpr.cars.domain;
 
 import java.time.LocalDate;
 
-import br.edu.ifpr.cars.validate.Impar;
+import br.edu.ifpr.cars.validation.Impar;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

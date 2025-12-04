@@ -1,4 +1,4 @@
-package br.edu.ifpr.cars.validate;
+package br.edu.ifpr.cars.validation;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

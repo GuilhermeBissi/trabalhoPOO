@@ -1,4 +1,4 @@
-package br.edu.ifpr.cars.validate;
+package br.edu.ifpr.cars.validation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
